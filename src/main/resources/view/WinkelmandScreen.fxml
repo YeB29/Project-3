@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WinkelmandController">
+   <children>
+      <ListView fx:id="ListviewCart" layoutX="158.0" layoutY="52.0" prefHeight="302.0" prefWidth="516.0" />
+      <Label fx:id="discount" layoutX="144.0" layoutY="375.0" text="Discount" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="total" layoutX="144.0" layoutY="421.0" text="Total" textFill="ORANGE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="250.0" layoutY="375.0" />
+      <Label fx:id="amountTotal" layoutX="250.0" layoutY="421.0" />
+      <Button layoutX="500.0" layoutY="392.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" style="-fx-background-color: orange;" text="Print">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="530.0" layoutY="508.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: orange;" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="logOut" layoutX="651.0" layoutY="509.0" mnemonicParsing="false" onMouseClicked="#logOut" prefHeight="41.0" prefWidth="107.0" style="-fx-background-color: orange;" text="Log out">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
