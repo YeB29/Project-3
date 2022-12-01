@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CommunityController">
+   <children>
+      <Button fx:id="logOut" layoutX="622.0" layoutY="494.0" mnemonicParsing="false" onMouseClicked="#logOut" prefHeight="44.0" prefWidth="101.0" style="-fx-background-color: orange;" text="Log out">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="492.0" layoutY="494.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="44.0" prefWidth="101.0" style="-fx-background-color: orange;" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
